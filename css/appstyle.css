@@ -1,0 +1,58 @@
+html, body
+{
+	background-color:black;
+	height: 98%;
+	width: 98%;
+}
+
+@font-face {
+  font-family: 'SUNN';
+  font-style: normal;
+  font-weight: normal;
+  src: local('SUNN'), url('www/fonts/SUNN.otf') format('opentype');
+}
+
+h3 {color:white;
+	font-size: 65px;
+	user-select: none;
+	text-align: center;
+	font-family: 'SUNN';
+}
+
+
+#mySVGCanvas {
+	border: 1px solid black;
+	width: 600px;
+	height: 400px;
+	margin: auto;
+	background-image: url("http://www.clipart-fr.com/data/wallpaper/Serie_005/fond_ecran_wallpaper_serie_00492.jpg");
+	background-size:cover;
+	z-index: 0;
+
+}
+
+#countdowntimer {
+	text-align: left;
+	font-family: 'SUNN';
+	font-size: 50px;
+	color: white;
+	position:absolute;
+	z-index: 5;
+	top: 24.5%;
+	left: 65%;
+}
+
+#clickcount {
+	text-align: right;
+	font-family: 'SUNN';
+	font-size: 50px;
+	color: white;
+	position:absolute;
+	z-index: 6;
+	top: 24.5%;
+	left: 29%;
+}
+
+
+
+
